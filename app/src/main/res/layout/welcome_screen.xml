@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        tools:context="com.example.admin.antoni.WelcomeScreen">
+
+        <ImageView
+            android:layout_width="@dimen/_36dp"
+            android:layout_height="@dimen/_45dp"
+            android:background="@drawable/logo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/_19dp"
+            android:id="@+id/imgLogo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up or Login for Free"
+            android:textSize="@dimen/_12sp"
+            android:lineSpacingExtra="@dimen/_16sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgLogo"
+            android:textColor="@color/textWhite"
+            android:layout_marginTop="@dimen/_36dp"
+            android:id="@+id/tv1"
+            />
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="@dimen/_112dp"
+            android:layout_height="@dimen/_93dp"
+            android:background="@drawable/bg_rectangle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/_5dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv1"
+            android:id="@+id/bgTransparent"
+            >
+
+
+            <!-- Start Custom facebook button -->
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="@dimen/_91dp"
+                android:layout_height="@dimen/_16dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="@dimen/_13dp"
+                android:id="@+id/btnFb"
+                android:background="@color/fbBlue">
+                <ImageView
+                    android:layout_width="@dimen/_3dp"
+                    android:layout_height="@dimen/_7dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:background="@drawable/facebook"
+                    android:layout_marginLeft="@dimen/_7dp"
+                    android:id="@+id/imgFb"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Continue with Facebook"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textColor="@color/textWhite"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="@dimen/_12sp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgFb"
+                    android:lineSpacingExtra="@dimen/_5sp"
+                    />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <!-- End Custom facebook button -->
+
+            <!-- Start Custom google button -->
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="@dimen/_91dp"
+                android:layout_height="@dimen/_16dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnFb"
+                android:layout_marginTop="@dimen/_6dp"
+                android:id="@+id/btnGoogle"
+                android:background="@color/googleRed">
+                <ImageView
+                    android:layout_width="@dimen/_7dp"
+                    android:layout_height="@dimen/_7dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:background="@drawable/google"
+
+                    android:layout_marginLeft="@dimen/_7dp"
+                    android:id="@+id/imgGoogle"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Continue with Google"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textColor="@color/textWhite"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="@dimen/_12sp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgGoogle"
+                    android:lineSpacingExtra="@dimen/_5sp"
+                    />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <!-- End Custom google button -->
+
+            <View
+                android:layout_width="@dimen/_42dp"
+                android:layout_height="@dimen/_0.5dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:background="@color/colorWhite"
+
+                android:id="@+id/v1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/or"
+                app:layout_constraintTop_toBottomOf="@+id/btnGoogle"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3dp"
+                android:text="or"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_9sp"
+                android:id="@+id/or"
+                android:lineSpacingExtra="@dimen/_18sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnGoogle" />
+
+            <View
+                android:layout_width="@dimen/_42dp"
+                android:layout_height="@dimen/_0.5dp"
+                android:layout_marginTop="@dimen/_5dp"
+                android:background="@color/colorWhite"
+
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/or"
+                android:id="@+id/v2"
+                app:layout_constraintTop_toBottomOf="@+id/btnGoogle"></View>
+
+
+
+            <!-- Start Custom Email button -->
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="@dimen/_91dp"
+                android:layout_height="@dimen/_16dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/or"
+                android:layout_marginTop="@dimen/_4dp"
+                android:id="@+id/btnEmail"
+                android:background="@color/emailBtn">
+                <ImageView
+                    android:layout_width="@dimen/_7dp"
+                    android:layout_height="@dimen/_5dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    android:background="@drawable/email_white"
+
+                    android:layout_marginLeft="@dimen/_6dp"
+                    android:id="@+id/imgEmail"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign up with Email"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:textColor="@color/textWhite"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:textSize="@dimen/_12sp"
+                    app:layout_constraintLeft_toRightOf="@+id/imgEmail"
+                    android:lineSpacingExtra="@dimen/_5sp"
+                    />
+
+            </android.support.constraint.ConstraintLayout>
+
+            <!-- End Custom Email button -->
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_13dp"
+            android:textSize="@dimen/_12sp"
+            android:textColor="@color/textWhite"
+            android:lineSpacingExtra="@dimen/_15sp"
+            android:text="Already Have an Account ? Login Here "
+            app:layout_constraintTop_toBottomOf="@+id/bgTransparent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+
+            android:id="@+id/tv2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="207 © Antoni Ipsum is a dummy text used in market for printing"
+            android:layout_marginBottom="@dimen/_3dp"
+            android:textColor="@color/textWhite"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textSize="@dimen/_8sp"
+            android:id="@+id/tv3"
+            />
+    </android.support.constraint.ConstraintLayout>
+
+
+

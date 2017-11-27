@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="fbBlue">#3b5998</color>
+    <color name="googleRed">#e94436</color>
+    <color name="emailBtn">#808080</color>
 </resources>
