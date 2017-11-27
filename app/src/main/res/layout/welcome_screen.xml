@@ -42,6 +42,7 @@
             android:layout_marginTop="@dimen/_5dp"
             app:layout_constraintTop_toBottomOf="@+id/tv1"
             android:id="@+id/bgTransparent"
+            android:clickable="true"
             >
 
 
@@ -210,8 +211,8 @@
             app:layout_constraintTop_toBottomOf="@+id/bgTransparent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-
-            android:id="@+id/tv2"
+            android:clickable="true"
+            android:id="@+id/login"
             />
 
         <TextView
