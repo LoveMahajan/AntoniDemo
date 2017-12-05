@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">Antoni</string>
-    <string name="facebook_app_id">136273397073863</string>
-    <string name="fb_login_protocol_scheme">fb136273397073863</string>
+    <string name="facebook_app_id">1945704499089489</string>
+    <string name="fb_login_protocol_scheme">fb1945704499089489</string>
+
+
+    <string name="error_only_numeric_digits_allowed">Only numeric digits are allowed.</string>
+    <string name="error_only_numeric_digits_range_allowed">Only numeric digits within the range %1$s - %2$s are allowed.</string>
+    <string name="error_this_field_cannot_contain_special_character">This field cannot contain any special character</string>
+    <string name="error_only_standard_letters_are_allowed">Only standard letters are allowed</string>
+    <string name="error_field_must_not_be_empty">The field must not be empty</string>
+    <string name="error_email_address_not_valid">Email address not valid</string>
+    <string name="error_creditcard_number_not_valid">Credit card number is not valid</string>
+    <string name="error_phone_not_valid">Enter valid phone number</string>
+    <string name="error_domain_not_valid">Domain name not valid</string>
+    <string name="error_ip_not_valid">IP Address not valid</string>
+    <string name="error_url_not_valid">Web Url is not valid</string>
+    <string name="error_notvalid_personname">Not a valid first or last name.</string>
+    <string name="error_notvalid_personfullname">Not a valid full name.</string>
+    <string name="error_date_not_valid">Format not valid</string>
+    <string name="error_password_not_match">Passwords do not match</string>
+    <string name="error_password_length">Password must be at least 8 characters </string>
+    <string name="error_terms_condition">Please accept terms and conditions</string>
+    <string name="title_activity_home">Map</string>
+    <string name="title_activity_maps">Map</string>
+
 </resources>
